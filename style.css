@@ -1,3 +1,7 @@
+html {
+    height:100%;
+}
+
 body {
     background-color: white;
     font-family: arial;
@@ -11,13 +15,13 @@ body {
 }
 
 #header {
-    word-spacing: 5px;
-    align-items: relative;
-    top: 0;
-    right: 0;
+    float: right;
+    word-spacing: 7px;
     list-style-type: none;
-    margin: 0;
+    margin-top: 10px;
+    margin-right: 15px;
     padding: 0;
+    border: 0;
 }
 
 li {
@@ -29,5 +33,61 @@ li {
 }
 
 #logo {
-    align-content: center;
+    position: absolute;
+    top: 30%;
+    right: 40%;
+}
+
+#searchbar {
+    padding-left:20px;
+    position: absolute;
+    top: 300px;
+    right: 395px;
+    width: 500px;
+    height: 44px;
+    border-radius: 30px;
+}
+
+#buttons {
+    position: absolute;
+    top: 350px;
+    right: 530px;
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    border: 0;
+}
+
+#footerspan1 {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+#footer {
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:100px;   /* Height of the footer */
+   background:lightgray;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+#footer21 {
+    padding-top: 40px;
+    word-spacing: 10px;
+    float: left;
+}
+
+#footer22 {
+    padding-top: 40px;
+    padding-right: 30px;
+    word-spacing: 10px;
+    float:right;
+}
+
+#footer2 {
+    background-color:lightgray;
 }
